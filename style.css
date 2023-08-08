@@ -1,9 +1,21 @@
 .choiceBtn{
     line-height: 30px;
     width: 150px;
+    box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.6);
 }
+
+#rockbtn{
+    background-color: coral;
+}
+#paperbtn{
+    background-color: lightblue;
+}
+#scissorsbtn{
+    background-color: palevioletred;
+}
+
 #gameDiv{
-    font-family: 'Arial';
+    font-family: "Candara","Lucida Console", "Courier New", monospace;
     border: 3px solid;
     border-radius: 25px;
     padding: 10px;
@@ -12,7 +24,30 @@
 }
 #playerText{
     color: blue;
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.6);
 }
+
 #computerText{
     color: red;
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.6);
+}
+
+#resultText{
+    color: cadetblue;
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.6);
 }
